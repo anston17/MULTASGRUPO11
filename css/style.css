@@ -1,0 +1,155 @@
+body{
+	width: 100%;
+background-image: url("imas/1.jpg")}
+
+
+.nav{
+	width: 100%;
+	background: black;
+	overflow: auto;
+}
+.nav a, label{
+  position: relative;
+  float: left;
+  text-align: center;
+  padding: 16px;
+  margin-left: 18px;
+  text-decoration: none;
+  color: white;
+  margin-top: 12px;
+  left: 46%; 
+
+}
+label{
+	font-family: montserrat;
+	font-size: 27px;
+	text-shadow: 0 0 5px, 0 0 10px #4a148c, 0 0 15px #2196F3, 0 0 20px #2196F3, 0 0 25px #2196F3;
+	letter-spacing: 2px;
+	margin-top: 4px;
+	left: 1px;
+
+
+}
+.nav a:hover{
+	text-shadow: 0 0 5px, 0 0 10px #4a148c, 0 0 15px #2196F3, 0 0 20px #2196F3, 0 0 25px #2196F3;
+
+
+}
+#footer{
+	position: relative;
+  float: left;
+  text-align: center;
+  padding: 6px;
+  margin-left: -46%;
+  text-decoration: none;
+  color: white;
+  margin-top: 5%;
+  left: 46%; 
+}
+#contenedor {
+width: 50%;
+margin-left: 25%;
+}
+#form1{
+	width: 10%;
+	margin-left: 30%;
+	height: 20%;
+	color: white;
+}
+.fname{
+	width: 300px;
+	height: 20px;
+	margin-left: 200px;
+	border-radius: 5px;
+	padding-left: 25px;
+	color: gray;
+	
+}
+#button{
+	width: 300px;
+	height: 40px;
+	margin-left: 500px;
+	margin-top: 10px;
+	background-color: white;
+	border-radius: 15px;
+}
+
+#button:hover{
+	background-color:skyblue;
+	color: white;
+	cursor: pointer;
+	transform: scale(1.1);
+}
+
+.logo{
+    height: 90px;
+}
+
+.logo img{
+    height: 100%;
+    display: block;
+}
+.fondo-principal{
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(to bottom,
+    rgba(27,25,28,.60),
+    rgba(27,25,28,.60),
+    rgba(27,25,28,.60)
+    ), url("../imas/multas2.jpg");
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.contenedor-textos{
+    padding: 0;
+    height: 70%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    overflow: hidden;
+    text-align: center;
+}
+
+.contenedor-textos h1{
+    font-family: 'Kanit', sans-serif;
+    font-size: 140px;
+    font-weight: 400;
+    font-style: italic;
+}
+
+.contenedor-textos p{
+    margin-top: -30px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 300;
+    font-size: 40px;
+}
+#sec{
+	margin-left: 500px;
+	background-color: gray;
+}
+.footer1{
+   
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed; 
+    background-color: gray;
+    color:black;
+}
+.barra{
+    margin-top: -20px;
+}
+.fondo-principal2{
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(to bottom,
+    rgba(27,25,28,.60),
+    rgba(27,25,28,.60),
+    rgba(27,25,28,.60)
+    ), url("../imas/ab.jpeg");
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
